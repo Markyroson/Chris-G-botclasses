@@ -312,7 +312,7 @@ class wikipedia {
      * @param $subcat (bool) Go into sub categories?
      * @return array
      **/
-    function categorymembers ($category,$subcat=false) {
+    function getCategoryMembers ($category,$subcat=false) {
         $continue = '';
         $pages = array();
         while (true) {
